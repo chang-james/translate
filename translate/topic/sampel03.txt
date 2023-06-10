@@ -1,0 +1,12 @@
+	LD	R1,	a
+	LD	R2,	b
+	CMP	R1,	R2
+	JLT	LT
+	ST	R1,	max
+	JMP	EXIT
+LT:	ST	R2,	max
+EXIT:	LD	R3,	max
+	RET
+a:	WORD	3
+b:	WORD	5
+max:	RESW	1

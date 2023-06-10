@@ -1,0 +1,3 @@
+﻿  translate.cpp
+D:\Visual Studio\組合語言\translate\translate\translate.cpp(624,25): warning C4101: 'y': 未參考的區域變數
+  translate.vcxproj -> D:\Visual Studio\組合語言\translate\x64\Debug\translate.exe
